@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STT Cipasung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1 class="brand-title">STT Cipasung</h1>
+        <p class="brand-subtitle">Sekolah Tinggi Teknologi Cipasung, Tasikmalaya</p>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about" class="nav-link">Tentang Kami</a></li>
+                <li class="nav-item"><a href="#programs" class="nav-link">Program Studi</a></li>
+                <li class="nav-item"><a href="#facilities" class="nav-link">Fasilitas</a></li>
+                <li class="nav-item"><a href="#events" class="nav-link">Agenda Mendatang</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Section 1: Tentang Kami -->
+        <section id="about" class="content-section about-section">
+            <h2 class="section-title">Tentang Kami</h2>
+            <p class="section-desc">STT Cipasung adalah sekolah tinggi teknologi di Tasikmalaya, Jawa Barat, yang didirikan pada tahun 1997 di bawah Yayasan Pondok Pesantren Cipasung. Kampus ini menyelenggarakan program sarjana di bidang teknik dan komputasi.</p>
+        </section>
+
+        <!-- Section 2: Program Studi -->
+        <section id="programs" class="content-section programs-section">
+            <h2 class="section-title">Program Studi</h2>
+            <table class="program-table">
+                <thead>
+                    <tr>
+                        <th class="table-header">Program Studi</th>
+                        <th class="table-header">Jenjang</th>
+                        <th class="table-header">Masa Studi</th>
+                        <th class="table-header">Fokus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row">
+                        <td class="table-data">Teknik Industri</td>
+                        <td class="table-data">Sarjana (S1)</td>
+                        <td class="table-data">4 tahun</td>
+                        <td class="table-data">Sistem produksi, mutu, dan ergonomi</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-data">Informatika</td>
+                        <td class="table-data">Sarjana (S1)</td>
+                        <td class="table-data">4 tahun</td>
+                        <td class="table-data">Perangkat lunak, jaringan, dan data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section 3: Fasilitas -->
+        <section id="facilities" class="content-section facilities-section">
+            <h2 class="section-title">Fasilitas</h2>
+            <ul class="facility-list">
+                <li class="facility-item">Laboratorium komputer</li>
+                <li class="facility-item">Laboratorium teknik industri</li>
+                <li class="facility-item">Perpustakaan</li>
+                <li class="facility-item">Masjid</li>
+                <li class="facility-item">Sekretariat kegiatan mahasiswa</li>
+            </ul>
+            <p class="image-wrapper">
+                <img class="campus-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89x7mG-2U2YWVmp9hVCcXSi5cJLOM7UcVxTeMNfHGzhqffzvFgOEX3Es&s=10" alt="Gedung Kampus Sekolah Tinggi Teknologi Cipasung Tasikmalaya">
+            </p>
+        </section>
+
+        <!-- Section 4: Agenda Mendatang -->
+        <section id="events" class="content-section events-section">
+            <h2 class="section-title">Agenda Mendatang</h2>
+            <article class="event-card">
+                <h3 class="event-title">Informatics Coding Day</h3>
+                <p class="event-date">Tanggal: <time datetime="2026-11-14">14 November 2026</time></p>
+                <p class="event-desc">Lomba pemrograman satu hari yang terbuka untuk semua mahasiswa.</p>
+            </article>
+            <article class="event-card">
+                <h3 class="event-title">Open House</h3>
+                <p class="event-date">Tanggal: <time datetime="2026-12-05">5 Desember 2026</time></p>
+                <p class="event-desc">Kunjungi laboratorium kami dan bertemu dengan para dosen.</p>
+            </article>
+        </section>
+
+        <!-- Section 5: Kontak -->
+        <section id="contact" class="content-section contact-section">
+            <h2 class="section-title">Kontak</h2>
+            <address class="contact-info">
+                Jalan Raya Cisinga KM 1, Cilampunghilir, Padakembang, Tasikmalaya, Jawa Barat 46466<br>
+                Email: <a href="mailto:info@sttcipasung.ac.id" class="contact-link">info@sttcipasung.ac.id</a><br>
+                Telepon: (0265) 2550424
+            </address>
+
+            <h3 class="subsection-title">Formulir Kontak</h3>
+            <form action="#" method="post" class="contact-form">
+                <p class="form-group">
+                    <label for="nama" class="form-label">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" class="form-input">
+                </p>
+                <p class="form-group">
+                    <label for="email" class="form-label">Email:</label><br>
+                    <input type="email" id="email" name="email" class="form-input">
+                </p>
+                <p class="form-group">
+                    <label for="pesan" class="form-label">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" class="form-textarea"></textarea>
+                </p>
+                <p class="form-group">
+                    <button type="submit" class="btn-submit">Kirim</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p class="copyright-text">&copy; 2026 STT Cipasung</p>
+    </footer>
+
+</body>
+</html>

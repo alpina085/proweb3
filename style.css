@@ -1,0 +1,217 @@
+/* Reset & Pengaturan Dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Header & Navigasi */
+.main-header {
+    background-color: #0d233a;
+    color: #fff;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.brand-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.brand-subtitle {
+    font-size: 1rem;
+    color: #cfd8dc;
+    margin-bottom: 1.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+    background-color: #1a3a5c;
+    text-decoration: underline;
+}
+
+/* Main Layout & Section */
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content-section {
+    background-color: #ffffff;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #0d233a;
+    border-bottom: 2px solid #0d233a;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.subsection-title {
+    font-size: 1.2rem;
+    color: #1a3a5c;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Tabel */
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.table-header,
+.table-data {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.table-header {
+    background-color: #f1f5f9;
+    color: #0d233a;
+    font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Fasilitas & Gambar */
+.facility-list {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.facility-item {
+    margin-bottom: 0.4rem;
+}
+
+.image-wrapper {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.campus-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* Agenda Card */
+.event-card {
+    background-color: #f8fafc;
+    border-left: 4px solid #0d233a;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.event-title {
+    font-size: 1.1rem;
+    color: #0d233a;
+}
+
+.event-date {
+    font-size: 0.9rem;
+    color: #64748b;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+/* Formulir & Kontak */
+.contact-info {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+.contact-link {
+    color: #0284c7;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    margin-top: 4px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #0d233a;
+    box-shadow: 0 0 0 2px rgba(13, 35, 58, 0.2);
+}
+
+.btn-submit {
+    background-color: #0d233a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1a3a5c;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #64748b;
+    font-size: 0.9rem;
+}
